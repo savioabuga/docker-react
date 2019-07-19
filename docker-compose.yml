@@ -10,8 +10,6 @@ services:
     volumes:
       - /app/node_modules
       - .:/app
-    environment:
-      - CI=true
   tests:
     build:
       context: .
